@@ -1,4 +1,0 @@
-mihneadb.github.io
-==================
-
-Blog
