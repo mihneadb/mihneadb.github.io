@@ -1,3 +1,35 @@
 .muted {
     opacity: 0.5;
 }
+
+.container {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    padding: 0% 5%;
+    flex: 8;
+    text-align: justify;
+}
+
+.sidebar {
+    flex: 3;
+    /*background: #248160;*/
+
+}
+
+.sidebar > ul {
+    list-style-type: none;
+}
+
+.spacer {
+    flex: 2;
+}
+
+body {
+    padding-top: 15px;
+}
