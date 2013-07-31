@@ -1,16 +1,11 @@
 {% include header.html %}
-
-<div class="spacer"></div>
-
 <div class="content">
-    {{ content }}
+    <div class="post">
+        {{ content }}
+    </div>
+    <div class="sidebar">
+        {% include sidebar.html %}
+    </div>
 </div>
-
-<div class="sidebar">
-    {% include sidebar.html %}
-</div>
-
-<div class="spacer"></div>
-
 
 {% include footer.html %}
