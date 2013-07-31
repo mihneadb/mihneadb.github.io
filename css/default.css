@@ -15,14 +15,17 @@
 }
 
 .title {
+    -webkit-flex: 1;
     flex: 1;
 }
 
 .topbar-spacer {
+    -webkit-flex: 7;
     flex: 7;
 }
 
 .links {
+    -webkit-flex: 2;
     flex: 2;
     text-align: center;
 }
@@ -35,12 +38,14 @@
 }
 
 .post {
+    -webkit-flex: 8.5;
     flex: 8.5;
     text-align: justify;
     padding: 0% 5%;
 }
 
 .sidebar {
+    -webkit-flex: 1.5;
     flex: 1.5;
 }
 
@@ -52,15 +57,18 @@
 }
 
 .page-spacer-left {
+    -webkit-flex: 2;
     flex: 2;
     background: azure;
 }
 
 .page-spacer-right {
+    -webkit-flex: 2;
     flex: 2;
 }
 
 .page {
+    -webkit-flex: 1;
     flex: 1;
     flex-basis: 920px;
     box-shadow: -5px 0px 5px -2px rgba(0, 0, 0, 0.15);
