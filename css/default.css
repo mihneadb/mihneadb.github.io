@@ -10,15 +10,15 @@
     background: gray;
 }
 
-.topbar .title {
+.title {
     flex: 1;
 }
 
-.topbar .spacer {
+.topbar-spacer {
     flex: 7;
 }
 
-.topbar .links {
+.links {
     flex: 2;
     text-align: center;
 }
@@ -43,8 +43,28 @@
 
 .container {
     background: #c1ffd3;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+}
+
+.page-spacer-left {
+    flex: 2;
+    background: red;
+}
+
+.page-spacer-right {
+    flex: 2;
+    background: #2795b6;
+}
+
+.page {
+    flex: 1;
+    flex-basis: 920px;
+    /*max-width: 960px;*/
 }
 
 body {
-    max-width: 960px;
+    /*max-width: 960px;*/
 }
