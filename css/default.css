@@ -2,6 +2,15 @@
     opacity: 0.5;
 }
 
+body {
+    font-family: "adobe-garamond-pro",sans-serif;
+    font-size: large;
+}
+
+.code {
+    font-family: sans-serif;
+}
+
 .header {
     background-color: rgb(26, 188, 156);
     height: 45px;
