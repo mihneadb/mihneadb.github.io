@@ -26,7 +26,7 @@ body {
     cursor: pointer;
 }
 
-.header-elem:hover a {
+.header-elem:hover {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -39,7 +39,7 @@ body {
     text-align: center;
 }
 
-.header-elem a {
+.header-contents a {
     color: rgba(255, 255, 255, 0.75);
 }
 
