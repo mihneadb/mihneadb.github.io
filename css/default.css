@@ -129,3 +129,7 @@ a {
     height: 24px;
     width: 24px;
 }
+
+.pagination-centered {
+    text-align: center;
+}
