@@ -68,6 +68,11 @@ body {
     text-indent: 2em;
 }
 
+.post ul {
+    list-style-position: inside;
+    padding-left: 4em;
+}
+
 
 .archive li {
     list-style-type: none;
