@@ -35,6 +35,10 @@ body {
     color: white;
 }
 
+.share {
+    text-align: right;
+}
+
 .share ul {
     list-style-type: none;
 }
