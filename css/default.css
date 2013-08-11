@@ -7,18 +7,19 @@ h2 {
 }
 
 body {
-    font-family: "adobe-garamond-pro",sans-serif;
+    font-family: "adobe-garamond-pro", georgia;
     font-size: large;
 }
 
 .code {
-    font-family: sans-serif;
+    font-family: consolas, monospace;
 }
 
 .header {
     background-color: rgb(26, 188, 156);
     height: 45px;
     box-shadow: 0px 3px 13px 0px rgba(2, 3, 3, 0.16);
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
 .header-elem {
