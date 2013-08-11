@@ -39,6 +39,11 @@ body {
     text-align: justify;
 }
 
+.post p {
+    text-indent: 2em;
+}
+
+
 .archive li {
     list-style-type: none;
 }

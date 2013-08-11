@@ -8,7 +8,7 @@ layout: default
             <h1>{{ post.title }}</h1>
             <p class="muted text-right">{{ post.date | date_to_long_string }}</p>
             <div>{{ post.excerpt }}</div>
-            <p><a href="{{ post.url }}">Read post</a></p>
+            <a href="{{ post.url }}">Read post</a>
         </div>
     </div>
 {% endfor %}
