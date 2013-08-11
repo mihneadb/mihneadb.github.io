@@ -41,6 +41,8 @@ body {
 
 .share li {
     display: inline;
+    height:20px;
+    vertical-align: top;
 }
 
 .content {
