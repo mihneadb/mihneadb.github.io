@@ -68,3 +68,15 @@ body {
 .highlight {
     font-size: medium;
 }
+
+::selection {
+    background: rgb(26, 188, 156);
+}
+
+::-moz-selection {
+    background: rgb(26, 188, 156);
+}
+
+a {
+    color: #ff582c;
+}
