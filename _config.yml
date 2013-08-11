@@ -1,5 +1,6 @@
 name: "Mihnea DB"
-description: "Blog"
+description: "Mihnea DB's blog"
+url: http://www.mihneadb.net
 
 paginate: 5
 

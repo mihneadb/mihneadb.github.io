@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mihnea DB</title>
+		<description>Mihnea DB's blog</description>
+		<link>http://www.mihneadb.net</link>
+		<atom:link href="http://www.mihneadb.net/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The Pastebin Client Exercise</title>
+				<description>&lt;p&gt;I found that writing a pastebin command line client can be a good exercise
+for both practicing and learning a new programming language. Let me tell you
+why.&lt;/p&gt;
+
+&lt;p&gt;First, a list of features that it should have:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pasting a file that is passed as an argument&lt;/li&gt;
+&lt;li&gt;pasting input that&#39;s piped into stdin&lt;/li&gt;
+&lt;li&gt;support for user credentials&lt;/li&gt;
+&lt;li&gt;persistent user credentials in a config file&lt;/li&gt;
+&lt;li&gt;support for anonymous posting&lt;/li&gt;
+&lt;li&gt;the ability to specify a language (for syntax highlighting)&lt;/li&gt;
+&lt;li&gt;error handling (nothing too advanced)&lt;/li&gt;
+&lt;li&gt;saving the new paste URL in the user&#39;s clipboard&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;The good thing about implementing all the above mentioned features is that you
+end up dealing with many essential aspects that one usually encounters when
+solving real tasks. These include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stdin handling&lt;/li&gt;
+&lt;li&gt;file operations&lt;/li&gt;
+&lt;li&gt;JSON/INI parsing (config file, response from pastebin server)&lt;/li&gt;
+&lt;li&gt;HTTP requests&lt;/li&gt;
+&lt;li&gt;creating a process and passing it input (for clipboard handling)&lt;/li&gt;
+&lt;li&gt;command line arguments handling&lt;/li&gt;
+&lt;li&gt;string / file path manipulation&lt;/li&gt;
+&lt;li&gt;exceptions (invalid config file, bad HTTP request)&lt;/li&gt;
+&lt;li&gt;understanding and using an external API&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This is a nice exercise because it will not take too many lines of code (under
+200, probably) and it will not eat up too much of your time either. If you want
+to try it out, I recommend the &lt;a href=&quot;https://www.refheap.com&quot;&gt;Refheap&lt;/a&gt; pastebin
+server because of their nice API and support for multiple languages - it even
+supports &lt;a href=&quot;http://www.rust-lang.org&quot;&gt;Rust&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;An extra challenge in case you opt for the Refheap API - they have a feature
+that allows you to specify a file extension for the language attribute and they
+will infer the correct syntax highlighting settings for you.&lt;/p&gt;
+
+&lt;p&gt;You can find my Python implementation on
+&lt;a href=&quot;https://github.com/mihneadb/refpaste&quot;&gt;github&lt;/a&gt;. I got the inspiration from
+&lt;a href=&quot;https://github.com/Raynes/rapture&quot;&gt;this&lt;/a&gt; great
+&lt;a href=&quot;http://elixir-lang.org/&quot;&gt;Elixir&lt;/a&gt; implementation that I found on the Refheap
+wiki page.&lt;/p&gt;
+</description>
+				<pubDate>Sat, 10 Aug 2013 23:20:25 -0700</pubDate>
+				<link>http://www.mihneadb.net/the-pastebin-client-exercise</link>
+				<guid isPermaLink="true">http://www.mihneadb.net/the-pastebin-client-exercise</guid>
+			</item>
+		
+			<item>
+				<title>Hello, world!</title>
+				<description>&lt;p&gt;Just started an &lt;em&gt;actual&lt;/em&gt; blog, stay tuned for &lt;em&gt;actual&lt;/em&gt; content!&lt;/p&gt;
+</description>
+				<pubDate>Sat, 10 Aug 2013 00:00:00 -0700</pubDate>
+				<link>http://www.mihneadb.net/hello-world</link>
+				<guid isPermaLink="true">http://www.mihneadb.net/hello-world</guid>
+			</item>
+		
+	</channel>
+</rss>
