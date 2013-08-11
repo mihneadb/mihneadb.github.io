@@ -85,6 +85,11 @@ body {
     text-indent: 2em;
 }
 
+.formatted-par {
+    text-indent: 2em;
+    text-align: justify;
+}
+
 .post ul {
     list-style-position: inside;
     padding-left: 3em;
