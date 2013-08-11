@@ -36,7 +36,7 @@ body {
 }
 
 .share {
-    /*text-align: right;*/
+    text-align: right;
 }
 
 .share ul {
@@ -44,7 +44,7 @@ body {
 }
 
 .share li {
-    /*display: inline;*/
+    display: inline;
     height:20px;
     vertical-align: top;
 }
