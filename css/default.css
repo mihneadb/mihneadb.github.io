@@ -35,6 +35,14 @@ body {
     color: white;
 }
 
+.share ul {
+    list-style-type: none;
+}
+
+.share li {
+    display: inline;
+}
+
 .content {
     margin-top: 60px;
 }
