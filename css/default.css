@@ -27,6 +27,10 @@ body {
     padding: 0 !important;
 }
 
+.ornament {
+    text-align: center;
+}
+
 .header-elem a {
     color: white;
 }
