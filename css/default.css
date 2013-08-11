@@ -103,3 +103,8 @@ a {
     margin-left: 10px;
     border-radius: 50%;
 }
+
+.rss-img {
+    height: 24px;
+    width: 24px;
+}
