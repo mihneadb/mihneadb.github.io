@@ -5,7 +5,7 @@ layout: default
 {% for post in paginator.posts %}
     <div class="row">
         <div class="small-12 columns">
-            <h1>{{ post.title }}</h1>
+            <h2>{{ post.title }}</h2>
             <p class="muted text-right">{{ post.date | date_to_long_string }}</p>
             <div>{{ post.excerpt }}</div>
             <a href="{{ post.url }}">Read post</a>
