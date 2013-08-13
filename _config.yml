@@ -5,5 +5,5 @@ url: http://www.mihneadb.net
 paginate: 5
 
 markdown: rdiscount
-permalink: :title
+permalink: /post/:title
 pygments: true
