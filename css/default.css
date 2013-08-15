@@ -11,6 +11,13 @@ body {
     font-size: large;
 }
 
+pre {
+    font-size: small;
+    padding: 1em;
+    margin-bottom: 13px;
+    background-color: rgba(200, 200, 200, 0.35);
+}
+
 .code {
     font-family: consolas, monospace;
 }
