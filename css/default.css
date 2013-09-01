@@ -94,7 +94,7 @@ pre {
     text-align: justify;
 }
 
-.post p {
+.post p:not(.img) {
     text-indent: 2em;
 }
 

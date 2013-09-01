@@ -13,7 +13,7 @@ a test harness" the next time someone asks about this.
 
 First, let's see how the _old_ test harness worked.
 
-<p class="text-center">
+<p class="text-center img">
 <img src="/img/parallelizing-a-test-harness/parxpc4.svg" alt="Old harness diagram">
 </p>
 
@@ -33,7 +33,7 @@ It turns out they were right.. in some sense. Making the harness run multiple
 tests simultaneously was indeed pretty easy. It uses a thread pool and
 every thread runs a test.
 
-<p class="text-center">
+<p class="text-center img">
 <img src="/img/parallelizing-a-test-harness/parxpc3.svg" alt="New harness diagram">
 </p>
 
@@ -41,7 +41,7 @@ The fun part started when we
 actually ran those multiple tests concurrently. To understand why, we need
 to talk about what an XPCShell test actually does.
 
-<p class="text-center">
+<p class="text-center img">
 <img src="/img/parallelizing-a-test-harness/parxpc1.svg" alt="Old test environment diagram">
 </p>
 
@@ -86,7 +86,7 @@ _%PORT%_ with the actual port number that they used.
 After all these changes, all tests ended up with their own sandbox that they
 could safely alter without breaking other running tests.
 
-<p class="text-center">
+<p class="text-center img">
 <img src="/img/parallelizing-a-test-harness/parxpc2.svg" alt="New test environment diagram">
 </p>
 
@@ -165,7 +165,7 @@ us a lot of time!
 
 P.S.: Here's how the bug dependency graph looks like for the whole thing!
 
-<p class="text-center">
+<p class="text-center img">
 <a href="/img/parallelizing-a-test-harness/deps.png"><img src="/img/parallelizing-a-test-harness/deps.png" alt="Bug dependency graph"></a>
 </p>
 
