@@ -163,3 +163,9 @@ report that we had *7051* checkins in July 2013. The new harness will save
 us a lot of time!
 
 
+P.S.: Here's how the bug dependency graph looks like for the whole thing!
+
+<p class="text-center">
+<a href="/img/parallelizing-a-test-harness/deps.png"><img src="/img/parallelizing-a-test-harness/deps.png" alt="Bug dependency graph"></a>
+</p>
+
