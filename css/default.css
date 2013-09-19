@@ -101,6 +101,10 @@ pre {
     text-indent: 2em;
 }
 
+.post table {
+    margin: 0 auto;
+}
+
 .post-title {
     margin-bottom: 20px;
 }
