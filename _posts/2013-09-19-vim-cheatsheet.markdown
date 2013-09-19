@@ -37,7 +37,7 @@ erase (cut) character under cursor | x
 erase (cut) character before cursor | X
 delete from cursor to end of word | dw
 delete line (same as cut) | dd
-delete from cursor to end of line | d$
+delete from cursor to end of line | d$ (or D)
 delete from cursor to beginning of line | d^
 change from cursor to end of word | cw
 change character under cursor | s
