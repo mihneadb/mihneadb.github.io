@@ -34,7 +34,7 @@ enter visual line selection mode | V
 insert empty line after the current one | o
 insert empty line before the current one | O
 erase (cut) character under cursor | x
-erase (cut) character before cursor | x
+erase (cut) character before cursor | X
 delete from cursor to end of word | dw
 delete line (same as cut) | dd
 delete from cursor to end of line | d$
