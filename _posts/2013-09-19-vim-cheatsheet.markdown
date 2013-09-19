@@ -43,6 +43,7 @@ change from cursor to end of word | cw
 change character under cursor | s
 increment number under cursor (by 1) | Ctrl + A
 decrement number under cursor (by 1) | Ctrl + X
+go to matching paren / bracket | %
 go to line *N* | :*N*
 end of line | $
 beginning of line | ^
