@@ -4,7 +4,7 @@ title: "Vim cheatsheet"
 date: "Thu Sep 19 19:08:47 +0300 2013"
 ---
 
-By popular demand, I wrote up a short cheatsheet for the keybindings
+By popular demand, I wrote up a short(?) cheatsheet for the keybindings
 I use the most in Vim.
 
 I will keep adding to the list as I realize I use something
