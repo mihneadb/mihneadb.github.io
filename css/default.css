@@ -125,6 +125,13 @@ pre {
     padding-left: 3em;
 }
 
+.post ol {
+    padding-left: 3em;
+}
+
+.post li p {
+    text-indent: 0 !important;
+}
 
 .archive li {
     list-style-type: none;
