@@ -19,14 +19,14 @@ which, as
 [Mitchell](https://blog.lizardwrangler.com/) explained at the Summit,
 can be reduced to three basic principles:
 
-1. The Web should be *open*: The Internet is a public source of information
+1. The Web should be *open*: The Web is a public source of information
 that must be open to and accessible to anybody
 around the world.
 
 2. The Web should be *interoperable*: People should not be locked in to an ecosystem and they should be able to
-use the technology they prefer to access the Internet.
+use the technology they prefer to access the Web.
 
-3. The Web should be *ours*: People should have the ability to shape the Internet experience and
+3. The Web should be *ours*: People should have the ability to shape the Web experience and
 be able to contribute with content without requiring permission from a central
 entity.
 
@@ -45,18 +45,18 @@ this is actually unthinkable - *the Web should be interoperable*, remember?
 The mission is what drives the [community](https://mozillians.org). I think we
 have the greatest community out there - developers, designers, testers, reps
 and others,
-all working together to make sure that (again, paraphrasing Mitchell) the Internet
+all working together to make sure that (again, paraphrasing Mitchell) the Web
 is *what the world needs it to be*. Unlike other projects, where the surrounding
 community has a small supporting role, Mozilla as we know it would not be possible
 without its army of volunteers.
 
 Besides Firefox, we are working on other projects that make the Web more
 accessible and drive it forward. Firefox OS and Webmaker come to mind.
-[Firefox OS](http://www.mozilla.org/en-US/firefox/os/) helps bring the Internet closer
+[Firefox OS](http://www.mozilla.org/en-US/firefox/os/) helps bring the Web closer
 to people who don't currently have a smartphone. At the same time it helps push
 Web technologies forward by providing the same support that developers currently
 have on closed, proprietary platforms through native apps.
-[Webmaker](https://webmaker.org/) is about shaping *our* Internet - it enables
+[Webmaker](https://webmaker.org/) is about shaping *our* Web - it enables
 people to contribute with their own content to the Web.
 
 Having the mission, the awesome volunteers and the community-facing projects,
@@ -68,3 +68,6 @@ Explorer in browsing the Web. Our community shows that a group of people that is
 all over across the world can still do great work together. Firefox OS is pushing the
 Web forward, closer to the increasingly popular mobile devices. All these and
 more developed in the open by passionate people. What's not to love?!
+
+
+<p class="text-right muted noindent smaller">Later edit: replaced "Internet" with "Web" to avoid confusion.</p>
