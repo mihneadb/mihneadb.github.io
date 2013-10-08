@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="row">
+<video id="damn" src="damn.ogg" autoplay>
+    Y u no HTML5 video? <a href="damn.ogg">dld it!</a>
+</video>
+</div>
+
+<script>
+var vid = document.getElementById("damn");
+vid.onclick = function () {
+    vid.pause();
+    vid.currentTime = 0;
+    vid.play();
+};
+</script>
