@@ -9,10 +9,21 @@ layout: default
 </div>
 
 <script>
+
 var vid = document.getElementById("damn");
 vid.onclick = function () {
     vid.pause();
     vid.currentTime = 0;
     vid.play();
 };
+
+//http://stackoverflow.com/a/4933551
+function isMobileSafari() {
+    return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+}
+
+if (isMobileSafari()) {
+    vid.src = "damn.mp4";
+}
+
 </script>
