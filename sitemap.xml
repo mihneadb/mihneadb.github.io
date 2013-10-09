@@ -8,14 +8,4 @@
         <loc>http://www.mihneadb.net{{ post.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
-
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    <url>
-        <loc>http://www.mihneadb.net{{ page.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
 </urlset>
