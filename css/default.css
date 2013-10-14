@@ -32,9 +32,8 @@ pre {
 }
 
 .header {
-    background-color: rgb(26, 188, 156);
+    margin-top: 18px;
     height: 45px;
-    box-shadow: 0px 3px 13px 0px rgba(2, 3, 3, 0.16);
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
@@ -45,6 +44,11 @@ pre {
 .header li {
     display: inline;
     margin-left: 5%;
+}
+
+.header-contents {
+    background-color: #00ADA7;
+    box-shadow: 0px 3px 13px 0px rgba(2, 3, 3, 0.16);
 }
 
 .header-links {
@@ -202,3 +206,4 @@ table, th, td {
     cursor: pointer;
 }
 
+/* https://kuler.adobe.com/mar-vintage-color-theme-2919210/ */
