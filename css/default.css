@@ -36,6 +36,12 @@ pre {
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
+@media (max-width: 767px) {
+    .header {
+        margin-top: 0;
+    }
+}
+
 .header ul {
     list-style-type: none;
 }
