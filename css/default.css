@@ -51,6 +51,9 @@ pre {
     .header {
         margin-top: 0;
     }
+    .content {
+        padding: 0;
+    }
 }
 
 .header ul {
