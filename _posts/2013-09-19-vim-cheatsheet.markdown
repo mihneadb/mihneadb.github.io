@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim cheatsheet"
+title: "Vim Cheatsheet"
 date: "Thu Sep 19 19:08:47 +0300 2013"
 ---
 
