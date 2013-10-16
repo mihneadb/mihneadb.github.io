@@ -4,16 +4,14 @@ layout: default
 
 {% for post in paginator.posts %}
     <div class="post row">
-        <div class="small-12 columns">
-            <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
-            <p class="post-date muted text-right">{{ post.date | date_to_long_string }}</p>
-            <div class="bigger-text">{{ post.excerpt }}</div>
-            <a href="{{ post.url }}">Read post</a>
-            <br>
-            <br>
-            <br>
-            <br>
-        </div>
+        <a href="{{ post.url }}"><h2 class="post-title">{{ post.title }}</h2></a>
+        <p class="post-date muted text-right">{{ post.date | date_to_long_string }}</p>
+        <div class="bigger-text">{{ post.excerpt }}</div>
+        <a href="{{ post.url }}">Read post</a>
+        <br>
+        <br>
+        <br>
+        <br>
     </div>
 {% endfor %}
 
