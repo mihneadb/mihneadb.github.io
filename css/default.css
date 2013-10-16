@@ -37,10 +37,6 @@ pre {
     font-family: consolas, monospace;
 }
 
-#logo {
-    padding-left: 15px;
-}
-
 .header {
     margin-top: 18px;
     height: 45px;
@@ -49,6 +45,7 @@ pre {
 
 #logo-small {
     display: none;
+    font-size: 150%;
 }
 
 @media (max-width: 767px) {
