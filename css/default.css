@@ -47,14 +47,27 @@ pre {
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
 }
 
+#logo-small {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .header {
         margin-top: 0;
     }
+
     .content {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 0;
+    }
+
+    #logo-big {
+        display: none;
+    }
+
+    #logo-small {
+        display: inline-block;
     }
 }
 
