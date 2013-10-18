@@ -29,12 +29,18 @@ body {
 pre {
     font-size: small;
     padding: 1em;
-    margin-bottom: 13px;
+    margin-bottom: 30px;
     background-color: rgba(200, 200, 200, 0.35);
+    border-radius: 3px;
 }
 
 .code {
     font-family: consolas, monospace;
+}
+
+code {
+    font-size: medium;
+    color: rgb(120, 120, 120);
 }
 
 .header {
