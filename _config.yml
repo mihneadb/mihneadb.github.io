@@ -1,8 +1,6 @@
-name: "Mihnea DB"
-description: "Mihnea DB's blog"
+name: "The Open Blog"
+description: "Mihnea DB's blog. Mostly technical stuff."
 url: http://www.mihneadb.net
-
-paginate: 5
 
 markdown: rdiscount
 
