@@ -49,6 +49,8 @@ code {
 
 .header-contents {
   margin: 0 auto; }
+  .header-contents a {
+    color: rgba(255, 255, 255, 0.75); }
 
 .header-links {
   position: absolute;
@@ -60,13 +62,6 @@ code {
     opacity: 0.55; }
   .header-links img:hover {
     opacity: 0.9; }
-
-#logo-small {
-  display: none;
-  font-size: 150%; }
-
-.header-contents a {
-  color: rgba(255, 255, 255, 0.75); }
 
 .ornament {
   text-align: center; }
@@ -145,13 +140,6 @@ a {
   margin-left: 10px;
   border-radius: 50%; }
 
-.rss-img {
-  height: 24px;
-  width: 24px; }
-
-.pagination-centered {
-  text-align: center; }
-
 s {
   opacity: 0.6; }
 
@@ -171,16 +159,7 @@ table, th, td {
   cursor: pointer; }
 
 @media (max-width: 767px) {
-  .header {
-    margin-top: 0; }
-
   .content {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 0; }
-
-  #logo-big {
-    display: none; }
-
-  #logo-small {
-    display: inline-block; } }
+    margin-top: 0; } }

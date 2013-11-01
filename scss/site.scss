@@ -71,6 +71,10 @@ code {
 
 .header-contents {
     margin: 0 auto;
+
+    a {
+        color: $color-light-smoke;
+    }
 }
 
 .header-links {
@@ -91,16 +95,6 @@ code {
     }
 }
 
-#logo-small {
-    display: none;
-    font-size: 150%;
-}
-
-.header-contents {
-    a {
-        color: $color-light-smoke;
-    }
-}
 
 .ornament {
     text-align: center;
@@ -211,15 +205,6 @@ a {
     border-radius: 50%;
 }
 
-.rss-img {
-    height: 24px;
-    width: 24px;
-}
-
-.pagination-centered {
-    text-align: center;
-}
-
 s {
     opacity: 0.6;
 }
@@ -245,21 +230,9 @@ table, th, td {
 
 
 @media (max-width: $media-query-breakpoint) {
-    .header {
-        margin-top: 0;
-    }
-
     .content {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 0;
-    }
-
-    #logo-big {
-        display: none;
-    }
-
-    #logo-small {
-        display: inline-block;
     }
 }
