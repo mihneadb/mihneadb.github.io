@@ -192,11 +192,17 @@ code {
     a {
         color: #888 !important;
         font-family: "source-sans-pro", sans-serif;
+        font-size: 90%;
     }
 
     a:hover {
         color: $color-red !important;
     }
+}
+
+.archive li:last-of-type {
+    border-bottom: none;
+    margin-bottom: 3em;
 }
 
 .highlight {
