@@ -1,6 +1,6 @@
 function resizePostHeader() {
     var windowHeight = $(window).height();
-    var postHeaderHeight = windowHeight / 2;
+    var postHeaderHeight = Math.max(windowHeight / 2, $(".header").height());
     $(".header").height(postHeaderHeight);
 
     var contentsHeight = $(".header-contents").height();
