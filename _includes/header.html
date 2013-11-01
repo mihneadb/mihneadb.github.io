@@ -46,7 +46,13 @@
 
     <div class="post-header text-center">
         <div class="post-header-contents large-centered large-11 small-12 columns">
+            {% if page.return_home == true %}
+                <a href="/">
+            {% endif %}
             <h2 class="post-title">{{ page.title }}</h2>
+            {% if page.return_home == true %}
+                </a>
+            {% endif %}
             {% if page.date %}
                 <span class="post-date">{{ page.date | date_to_long_string }}</span>
             {% endif %}
