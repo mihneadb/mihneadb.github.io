@@ -61,6 +61,11 @@ code {
     }
 }
 
+.header-icon {
+    height: 30px;
+    width: 30px;
+}
+
 .post-header {
     background-color: $color-teal;
 
@@ -72,11 +77,21 @@ code {
 
     .post-date {
         color: $color-light-smoke;
+        font-size: 110%;
     }
 }
 
 .post-header-contents {
     margin: 0 auto;
+}
+
+.post-header-links {
+    margin-top: 3em;
+    a {
+        color: white !important;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 #logo-small {
@@ -174,6 +189,16 @@ code {
 
 .archive li {
     list-style-type: none;
+    border-bottom:  1px solid #ddd;
+    margin-top: 1em;
+
+    a {
+        color: #888 !important;
+    }
+
+    a:hover {
+        color: $color-red !important;
+    }
 }
 
 .highlight {

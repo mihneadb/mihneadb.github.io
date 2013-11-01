@@ -11,4 +11,10 @@ function resizePostHeader() {
 
 }
 
-resizePostHeader();
+function placeAbout() {
+    var windowHeight = $(window).height();
+    var aboutHeight = $(".about").height();
+    $(".about").css({
+        "margin-top": windowHeight / 4 - aboutHeight / 2
+    });
+}

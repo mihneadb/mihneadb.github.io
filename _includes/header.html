@@ -6,7 +6,7 @@
             {% if page.title %}
                 {{ page.title }}
             {% else %}
-                Mihnea DB
+                Mihnea DB - The Open Blog
             {% endif %}
         </title>
 
@@ -22,6 +22,8 @@
         <link rel="stylesheet" href="/css/normalize.css" />
         <link rel="stylesheet" href="/css/foundation.css" />
         <link rel="stylesheet" href="/css/site.css" />
+
+        <script src="/js/site.js"></script>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -40,21 +42,19 @@
 
     <body>
 
-    <div class="header">
-        <div class="header-contents large-centered large-8 small-12 columns">
-            <div class="row">
-                <div id="logo-big" class="small-5 columns">
-                    <a class="header-elem" href="/">Mihnea DB</a>
-                </div>
-                <div id="logo-small" class="small-5 columns">
-                    <a class="header-elem" href="/">M</a>
-                </div>
-                <div class="small-7 large-offset-2 large-5 columns">
-                    <ul class="header-links">
-                        <li><a class="header-elem" href="/archive/">Archive</a></li>
-                        <li><a class="header-elem" href="/about/">About</a></li>
-                    </ul>
-                </div>
-            </div>
+    <div class="post-header text-center">
+        <div class="post-header-contents large-centered large-11 small-12 columns">
+            <h2 class="post-title">{{ page.title }}</h2>
+            {% if page.date %}
+                <span class="post-date">{{ page.date | date_to_long_string }}</span>
+            {% endif %}
+            <br>
+        </div>
+        <div class="post-header-links">
+            {% if page.homepage != true %}
+                <a href="/"><img class="header-icon" src="/img/home.png" alt="Home"></a>
+            {% endif %}
+            <a href="/about"><img class="header-icon" src="/img/info.png" alt="About"></a>
         </div>
     </div>
+    <script>resizePostHeader()</script>

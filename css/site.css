@@ -40,6 +40,10 @@ code {
     display: inline;
     margin-left: 5%; }
 
+.header-icon {
+  height: 30px;
+  width: 30px; }
+
 .post-header {
   background-color: #00ada7; }
   .post-header h1, .post-header h2 {
@@ -47,10 +51,18 @@ code {
     text-align: center;
     color: white; }
   .post-header .post-date {
-    color: rgba(255, 255, 255, 0.75); }
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 110%; }
 
 .post-header-contents {
   margin: 0 auto; }
+
+.post-header-links {
+  margin-top: 3em; }
+  .post-header-links a {
+    color: white !important;
+    margin-left: 5px;
+    margin-right: 5px; }
 
 #logo-small {
   display: none;
@@ -118,7 +130,13 @@ code {
   text-align: justify; }
 
 .archive li {
-  list-style-type: none; }
+  list-style-type: none;
+  border-bottom: 1px solid #ddd;
+  margin-top: 1em; }
+  .archive li a {
+    color: #888 !important; }
+  .archive li a:hover {
+    color: #de3961 !important; }
 
 .highlight {
   font-size: medium; }
