@@ -33,3 +33,4 @@ window.onresize = function () {
     placeAbout();
     placeHeaderIcons();
 }
+
