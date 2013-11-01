@@ -63,8 +63,7 @@ code {
   bottom: 1em; }
   .post-header-links a {
     color: white !important;
-    margin-left: 5px;
-    margin-right: 5px; }
+    margin-left: 4px; }
   .post-header-links img {
     opacity: 0.55; }
   .post-header-links img:hover {
