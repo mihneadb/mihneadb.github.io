@@ -1,11 +1,17 @@
 {% include header.html %}
 
-<div class="content large-centered large-8 small-12 columns">
-    <div class="row">
-        <div class="post bigger-text">
-            <h2 class="post-title">{{ page.title }}</h2>
-            <p class="post-date muted text-right">{{ page.date | date_to_long_string }}</p>
+<div class="post-header text-center">
+    <div class="post-header-contents large-centered large-11 small-12 columns">
+        <h2 class="post-title">{{ page.title }}</h2>
+        <span class="post-date">{{ page.date | date_to_long_string }}</span>
+    </div>
+</div>
+<script src="/js/site.js"></script>
 
+
+<div class="content large-centered large-8 small-12 columns">
+    <div>
+        <div class="post bigger-text">
             {{ content }}
         </div>
     </div>

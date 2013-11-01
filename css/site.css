@@ -2,11 +2,8 @@
 .muted {
   opacity: 0.5; }
 
-h2 {
+h1, h2 {
   margin-bottom: 0; }
-
-html, body {
-  background-image: url("../img/bg.png"); }
 
 body {
   font-family: "adobe-garamond-pro", georgia;
@@ -18,9 +15,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   background-color: white;
-  margin-bottom: 20px;
-  margin-top: 18px;
-  box-shadow: 0px 3px 7px #aaa; }
+  margin-bottom: 20px; }
 
 pre {
   font-size: small;
@@ -37,24 +32,32 @@ code {
   color: #787878; }
 
 .header {
-  margin-top: 18px;
-  height: 45px;
-  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif; }
+  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+  background-color: #00ada7; }
   .header ul {
     list-style-type: none; }
   .header li {
     display: inline;
     margin-left: 5%; }
 
+.post-header {
+  background-color: #00ada7; }
+  .post-header h1, .post-header h2 {
+    margin-top: 0px;
+    text-align: center;
+    color: white; }
+  .post-header .post-date {
+    color: rgba(255, 255, 255, 0.75); }
+
+.post-header-contents {
+  margin: 0 auto; }
+
 #logo-small {
   display: none;
   font-size: 150%; }
 
-.header-contents {
-  background-color: #00ada7;
-  box-shadow: 0px 3px 7px #aaa; }
-  .header-contents a {
-    color: rgba(255, 255, 255, 0.75); }
+.header-contents a {
+  color: rgba(255, 255, 255, 0.75); }
 
 .header-links {
   text-align: right;
@@ -89,8 +92,6 @@ code {
 
 .post {
   text-align: justify; }
-  .post p:not(.img) {
-    text-indent: 2em; }
   .post table {
     margin: 0 auto;
     margin-bottom: 1.5em;
@@ -112,9 +113,6 @@ code {
   margin-bottom: 20px;
   text-align: left; }
 
-.post-date {
-  margin-bottom: 30px; }
-
 .formatted-par {
   text-indent: 2em;
   text-align: justify; }
@@ -126,13 +124,13 @@ code {
   font-size: medium; }
 
 ::selection {
-  background: #00ada7; }
+  background: #b3eecc; }
 
 ::-moz-selection {
-  background: #00ada7; }
+  background: #b3eecc; }
 
 a {
-  color: #ff582c; }
+  color: #de3961; }
 
 .about-logos {
   text-align: right; }

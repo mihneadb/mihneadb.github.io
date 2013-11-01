@@ -6,18 +6,14 @@ $color-light-teal:#B3EECC;
 $color-teal: #00ADA7;
 
 $media-query-breakpoint: 767px;
-
+$color-light-smoke: rgba(255, 255, 255, 0.75);
 
 .muted {
     opacity: 0.5;
 }
 
-h2 {
+h1, h2 {
     margin-bottom: 0;
-}
-
-html, body {
-    background-image: url("../img/bg.png");
 }
 
 body {
@@ -32,8 +28,6 @@ body {
     padding-right: 40px;
     background-color: white;
     margin-bottom: 20px;
-    margin-top: 18px;
-    box-shadow: 0px 3px 7px #aaa;
 }
 
 pre {
@@ -54,18 +48,35 @@ code {
 }
 
 .header {
-    margin-top: 18px;
-    height: 45px;
     font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    background-color: $color-teal;
 
     ul {
-      list-style-type: none;
+        list-style-type: none;
     }
 
     li {
-      display: inline;
-      margin-left: 5%;
+        display: inline;
+        margin-left: 5%;
     }
+}
+
+.post-header {
+    background-color: $color-teal;
+
+    h1, h2 {
+        margin-top: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .post-date {
+        color: $color-light-smoke;
+    }
+}
+
+.post-header-contents {
+    margin: 0 auto;
 }
 
 #logo-small {
@@ -74,11 +85,8 @@ code {
 }
 
 .header-contents {
-    background-color: $color-teal;
-    box-shadow: 0px 3px 7px #aaa;
-
     a {
-        color: rgba(255, 255, 255, 0.75);
+        color: $color-light-smoke;
     }
 }
 
@@ -127,10 +135,6 @@ code {
 .post {
     text-align: justify;
 
-    p:not(.img) {
-        text-indent: 2em;
-    }
-
     table {
         margin: 0 auto;
         margin-bottom: 1.5em;
@@ -163,10 +167,6 @@ code {
     text-align: left;
 }
 
-.post-date {
-    margin-bottom: 30px;
-}
-
 .formatted-par {
     text-indent: 2em;
     text-align: justify;
@@ -181,15 +181,15 @@ code {
 }
 
 ::selection {
-    background: $color-teal;
+    background: $color-light-teal;
 }
 
 ::-moz-selection {
-    background: $color-teal;
+    background: $color-light-teal;
 }
 
 a {
-    color: #ff582c;
+    color: $color-red;
 }
 
 .about-logos {
