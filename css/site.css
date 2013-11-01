@@ -3,7 +3,8 @@
   opacity: 0.5; }
 
 h1, h2 {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: "source-sans-pro", sans-serif; }
 
 body {
   font-family: "adobe-garamond-pro", georgia;
@@ -30,15 +31,6 @@ pre {
 code {
   font-size: medium;
   color: #787878; }
-
-.header {
-  font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-  background-color: #00ada7; }
-  .header ul {
-    list-style-type: none; }
-  .header li {
-    display: inline;
-    margin-left: 5%; }
 
 .header-icon {
   height: 30px;
@@ -139,7 +131,8 @@ code {
   border-bottom: 1px solid #ddd;
   margin-top: 1em; }
   .archive li a {
-    color: #888 !important; }
+    color: #888 !important;
+    font-family: "source-sans-pro", sans-serif; }
   .archive li a:hover {
     color: #de3961 !important; }
 

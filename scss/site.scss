@@ -14,6 +14,7 @@ $color-light-smoke: rgba(255, 255, 255, 0.75);
 
 h1, h2 {
     margin-bottom: 0;
+    font-family: "source-sans-pro", sans-serif;
 }
 
 body {
@@ -45,20 +46,6 @@ pre {
 code {
     font-size: medium;
     color: rgb(120, 120, 120);
-}
-
-.header {
-    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
-    background-color: $color-teal;
-
-    ul {
-        list-style-type: none;
-    }
-
-    li {
-        display: inline;
-        margin-left: 5%;
-    }
 }
 
 .header-icon {
@@ -204,6 +191,7 @@ code {
 
     a {
         color: #888 !important;
+        font-family: "source-sans-pro", sans-serif;
     }
 
     a:hover {
