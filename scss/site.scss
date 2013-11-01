@@ -67,6 +67,7 @@ code {
 }
 
 .post-header {
+    position: relative;
     background-color: $color-teal;
 
     h1, h2 {
@@ -86,11 +87,21 @@ code {
 }
 
 .post-header-links {
-    margin-top: 3em;
+    position: absolute;
+    bottom: 1em;
+
     a {
         color: white !important;
         margin-left: 5px;
         margin-right: 5px;
+    }
+
+    img {
+        opacity: 0.55;
+    }
+
+    img:hover {
+        opacity: 0.9;
     }
 }
 

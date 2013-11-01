@@ -18,3 +18,10 @@ function placeAbout() {
         "margin-top": windowHeight / 4 - aboutHeight / 2
     });
 }
+
+function placeHeaderIcons() {
+    var delta = $(".content").offset().left;
+    $(".post-header-links").css({
+        "right": delta + $(".post-header-links").width() / 2 + "px"
+    });
+}
