@@ -1,11 +1,10 @@
 function resizePostHeader() {
     var windowHeight = $(window).height();
-    var headerHeight = $(".header").height();
-    var postHeaderHeight = windowHeight / 2 - headerHeight;
-    $(".post-header").height(postHeaderHeight);
+    var postHeaderHeight = windowHeight / 2;
+    $(".header").height(postHeaderHeight);
 
-    var contentsHeight = $(".post-header-contents").height();
-    $(".post-header").css({
+    var contentsHeight = $(".header-contents").height();
+    $(".header").css({
         "padding-top": postHeaderHeight / 2 - contentsHeight / 2
     });
 
@@ -24,8 +23,8 @@ function placeAbout() {
 
 function placeHeaderIcons() {
     var delta = $(".content").offset().left;
-    $(".post-header-links").css({
-        "right": delta + $(".post-header-links").width() / 2 + "px"
+    $(".header-links").css({
+        "right": delta + $(".header-links").width() / 2 + "px"
     });
 }
 

@@ -36,29 +36,29 @@ code {
   height: 30px;
   width: 30px; }
 
-.post-header {
+.header {
   position: relative;
   background-color: #00ada7; }
-  .post-header h1, .post-header h2 {
+  .header h1, .header h2 {
     margin-top: 0px;
     text-align: center;
     color: white; }
-  .post-header .header-subtitle {
+  .header .header-subtitle {
     color: rgba(255, 255, 255, 0.75);
     font-size: 110%; }
 
-.post-header-contents {
+.header-contents {
   margin: 0 auto; }
 
-.post-header-links {
+.header-links {
   position: absolute;
   bottom: 1em; }
-  .post-header-links a {
+  .header-links a {
     color: white !important;
     margin-left: 4px; }
-  .post-header-links img {
+  .header-links img {
     opacity: 0.55; }
-  .post-header-links img:hover {
+  .header-links img:hover {
     opacity: 0.9; }
 
 #logo-small {
@@ -67,23 +67,6 @@ code {
 
 .header-contents a {
   color: rgba(255, 255, 255, 0.75); }
-
-.header-links {
-  text-align: right;
-  margin-bottom: 0px; }
-
-.header-elem {
-  line-height: 45px;
-  cursor: pointer;
-  display: inline-block; }
-
-.header-elem:hover {
-  transition: color 0.2s;
-  color: white; }
-
-.pagination a {
-  margin: 0 !important;
-  padding: 0 !important; }
 
 .ornament {
   text-align: center; }

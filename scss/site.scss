@@ -53,7 +53,7 @@ code {
     width: 30px;
 }
 
-.post-header {
+.header {
     position: relative;
     background-color: $color-teal;
 
@@ -69,11 +69,11 @@ code {
     }
 }
 
-.post-header-contents {
+.header-contents {
     margin: 0 auto;
 }
 
-.post-header-links {
+.header-links {
     position: absolute;
     bottom: 1em;
 
@@ -100,27 +100,6 @@ code {
     a {
         color: $color-light-smoke;
     }
-}
-
-.header-links {
-    text-align: right;
-    margin-bottom: 0px;
-}
-
-.header-elem {
-    line-height: 45px;
-    cursor: pointer;
-    display: inline-block;
-}
-
-.header-elem:hover {
-    transition: color 0.2s;
-    color: rgba(255, 255, 255, 1);
-}
-
-.pagination a {
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
 .ornament {
