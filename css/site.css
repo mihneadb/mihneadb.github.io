@@ -1,3 +1,4 @@
+/* https://kuler.adobe.com/mar-vintage-color-theme-2919210/ */
 .muted {
   opacity: 0.5; }
 
@@ -66,7 +67,7 @@ code {
   margin-left: 5%; }
 
 .header-contents {
-  background-color: #00ADA7;
+  background-color: #00ada7;
   box-shadow: 0px 3px 7px #aaa; }
 
 .header-contents a {
@@ -144,10 +145,10 @@ code {
   font-size: medium; }
 
 ::selection {
-  background: #1abc9c; }
+  background: #00ada7; }
 
 ::-moz-selection {
-  background: #1abc9c; }
+  background: #00ada7; }
 
 a {
   color: #ff582c; }
@@ -191,5 +192,3 @@ table, th, td {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   cursor: pointer; }
-
-/* https://kuler.adobe.com/mar-vintage-color-theme-2919210/ */
