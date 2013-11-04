@@ -30,3 +30,8 @@ for production (they differ in optimization level). Also, there's a simple
 
 Happy hacking!
 
+<p class="text-right muted noindent smaller">Later edit: just found out that
+David Nolen
+<a href="http://swannodette.github.io/2013/10/27/the-essence-of-clojurescript/">did</a>
+a similar template just a few days ago.</p>
+
