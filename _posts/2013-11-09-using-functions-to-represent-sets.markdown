@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using functions to represent sets"
+title: "Using Functions to Represent Sets"
 date: "Sat Nov 09 13:03:12 +0200 2013"
 ---
 
