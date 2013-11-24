@@ -134,8 +134,8 @@ code {
 a {
   color: #de3961; }
 
-.about-logos {
-  text-align: right; }
+.about-footer {
+  line-height: 71px; }
 
 .about-logos img {
   width: 50px;
