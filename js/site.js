@@ -23,8 +23,10 @@ function placeAbout() {
 
 function placeHeaderIcons() {
     var delta = $(".content").offset().left;
-    $(".header-links").css({
-        "right": delta + $(".header-links").width() / 2 + "px"
+    var links = $(".header-links");
+    links.show();
+    links.css({
+        "right": delta + links.width() / 2 + "px"
     });
 }
 
