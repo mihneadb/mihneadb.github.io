@@ -10,17 +10,6 @@ function resizePostHeader() {
 
 }
 
-function placeAbout() {
-    if ($(".about").length == 0) {
-        return;
-    }
-    var windowHeight = $(window).height();
-    var aboutHeight = $(".about").height();
-    $(".about").css({
-        "margin-top": windowHeight / 4 - aboutHeight / 2
-    });
-}
-
 function placeHeaderIcons() {
     var delta = $(".content").offset().left;
     var links = $(".header-links");
@@ -32,7 +21,6 @@ function placeHeaderIcons() {
 
 window.onresize = function () {
     resizePostHeader();
-    placeAbout();
     placeHeaderIcons();
 }
 
