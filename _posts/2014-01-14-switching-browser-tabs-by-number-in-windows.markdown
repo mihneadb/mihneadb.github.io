@@ -6,7 +6,7 @@ date: "Tue Jan 14 00:48:45 +0200 2014"
 
 I always loved the Linux/OS X shortcut that allows you to go to any tab between
 1 and 8 by using `ALT + number` (or `CMD + number`). However, I couldn't get
-it to work on Windows. Recently, out of pure luck, I stubmled across the
+it to work on Windows. Recently, out of pure luck, I stumbled across the
 working key combination - you just have to use `CTRL` instead!
 
 So, next time you're browsing the Web on a Windows box, go ahead and switch
