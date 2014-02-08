@@ -119,8 +119,9 @@ code {
     }
 
     li {
-        display: inline;
-        vertical-align: top;
+        display: inline-block;
+        vertical-align: middle;
+        height: 60px;
     }
 }
 

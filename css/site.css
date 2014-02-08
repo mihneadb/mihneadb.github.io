@@ -79,8 +79,9 @@ code {
   .share ul {
     list-style-type: none; }
   .share li {
-    display: inline;
-    vertical-align: top; }
+    display: inline-block;
+    vertical-align: middle;
+    height: 60px; }
 
 .bigger-text {
   font-size: 115%; }
