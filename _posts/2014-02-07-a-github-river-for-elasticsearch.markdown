@@ -21,7 +21,7 @@ There are already a few rivers out there, like the
 rivers, but there wasn't any GitHub river until
 [now](https://github.com/ubervu/elasticsearch-river-github).
 
-##Using the GitHub river
+###Using the GitHub river
 
 The GitHub river allows us to periodically index a repository's public events.
 If you provide authentication data (as seen in the
@@ -60,7 +60,7 @@ Right after this, elasticsearch will start indexing the most recent 300 (GitHub 
 The data is accessible in the `gabrielfalcao-lettuce` index, where you will find a
 different document type for every GitHub event type.
 
-##Using Kibana to visualize the data
+###Visualizing the data with Kibana
 
 In order to make some sense of this data, let's get Kibana up and running. First,
 you need to [download](http://download.elasticsearch.org/kibana/kibana/kibana-latest.zip)
