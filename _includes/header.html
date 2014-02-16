@@ -42,20 +42,31 @@
 
     </head>
 
-    <body>
+    <body itemscope="" itemtype="http://schema.org/BlogPosting">
 
     <div class="header text-center">
         <div class="header-contents large-centered large-11 small-12 columns">
             {% if page.displays_title == true %}
                 <a href="/">
-            {% endif %}
-            <h1 class="post-title">{{ page.title }}</h1>
-            {% if page.displays_title == true %}
+                    <h1 class="post-title">{{ page.title }}</h1>
                 </a>
+            {% else %}
+                <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
             {% endif %}
             {% if page.date %}
-                <span class="header-subtitle">{{ page.date | date_to_long_string }}</span>
+                <time class="header-subtitle" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    {{ page.date | date_to_long_string }}
+                </time>
             {% endif %}
+
+            {% comment %}Only for schema{% endcomment %}
+            <span class="hide" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <span itemprop="name">
+                    <a href="https://plus.google.com/u/0/+MihneaDobrescuBalaur" itemprop="url" rel="author">
+                        Mihnea Dobrescu-Balaur
+                    </a>
+                </span>
+            </span>
 
             {% if page.homepage == true or page.displays_title == true %}
                 <p class="header-subtitle">Mihnea DB</p>
