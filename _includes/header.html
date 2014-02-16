@@ -46,7 +46,11 @@
 
     </head>
 
-    <body itemscope="" itemtype="http://schema.org/BlogPosting">
+    {% if page.is_post == true %}
+        <body itemscope="" itemtype="http://schema.org/BlogPosting">
+    {% else %}
+        <body itemscope="" itemtype="http://schema.org/Blog">
+    {% endif %}
 
     <div class="header text-center">
         <div class="header-contents large-centered large-11 small-12 columns">
