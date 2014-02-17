@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {% if page.is_post == true %}
-            <meta name="description" content="{{ content | strip_html | truncatewords:75 }}" />
+            <meta name="description" content="{{ content | truncatewords:75 | strip_html | escape }}" />
         {% else %}
             <meta name="description" content="My personal blog. Mostly technical stuff." />
         {% endif %}
