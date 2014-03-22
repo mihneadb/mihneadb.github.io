@@ -46,8 +46,10 @@ code {
 
 .header {
   position: relative;
-  background-color: #008f70;
-  height: 50vh; }
+  background-color: #005d35;
+  height: 50vh;
+  opacity: 1;
+  z-index: 2; }
   .header h1, .header h2 {
     margin-top: 0px;
     text-align: center;
@@ -55,6 +57,22 @@ code {
   .header .header-subtitle {
     color: rgba(255, 255, 255, 0.75);
     font-size: 110%; }
+
+.header::before {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: 0% 50%;
+  content: "";
+  z-index: 0;
+  -webkit-filter: grayscale(100%); }
 
 .header-contents {
   margin: 0 auto;

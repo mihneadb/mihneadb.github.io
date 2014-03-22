@@ -3,7 +3,7 @@ $color-red: #DE3961;
 $color-green: #A4E670;
 $color-light-yellow: #FFFFDC;
 $color-light-teal:#B3EECC;
-$color-dark-green: #008F70;
+$color-dark-green: rgb(0, 93, 53);
 
 $media-query-breakpoint: 767px;
 $color-light-smoke: rgba(255, 255, 255, 0.75);
@@ -68,6 +68,8 @@ code {
     position: relative;
     background-color: $color-dark-green;
     height: 50vh;
+    opacity: 1;
+    z-index: 2;
 
     h1, h2 {
         margin-top: 0px;
@@ -79,6 +81,23 @@ code {
         color: $color-light-smoke;
         font-size: 110%;
     }
+}
+
+.header::before {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position: 0% 50%;
+    content: "";
+    z-index: 0;
+    -webkit-filter: grayscale(100%);
 }
 
 .header-contents {
