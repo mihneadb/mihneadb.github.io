@@ -46,7 +46,8 @@ code {
 
 .header {
   position: relative;
-  background-color: #00ada7; }
+  background-color: #00ada7;
+  height: 50vh; }
   .header h1, .header h2 {
     margin-top: 0px;
     text-align: center;
@@ -56,13 +57,16 @@ code {
     font-size: 110%; }
 
 .header-contents {
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative;
+  top: 15vh; }
   .header-contents a {
     color: rgba(255, 255, 255, 0.75); }
 
 .header-links {
   position: absolute;
-  bottom: 1em; }
+  bottom: 1em;
+  right: 20vw; }
   .header-links a {
     color: white !important;
     margin-left: 4px; }
@@ -179,4 +183,9 @@ table, th, td {
   .content {
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .header-links {
+    position: absolute;
+    bottom: 1em;
+    right: 1em; } }

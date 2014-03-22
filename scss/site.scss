@@ -67,6 +67,7 @@ code {
 .header {
     position: relative;
     background-color: $color-teal;
+    height: 50vh;
 
     h1, h2 {
         margin-top: 0px;
@@ -82,6 +83,8 @@ code {
 
 .header-contents {
     margin: 0 auto;
+    position: relative;
+    top: 15vh;
 
     a {
         color: $color-light-smoke;
@@ -91,6 +94,7 @@ code {
 .header-links {
     position: absolute;
     bottom: 1em;
+    right: 20vw;
 
     a {
         color: white !important;
@@ -259,5 +263,12 @@ table, th, td {
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 0;
+    }
+
+
+    .header-links {
+        position: absolute;
+        bottom: 1em;
+        right: 1em;
     }
 }

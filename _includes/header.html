@@ -29,14 +29,10 @@
         <link rel="stylesheet" href="/css/foundation.css" />
         <link rel="stylesheet" href="/css/site.css" />
 
-        <script src="/js/site.js"></script>
-
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-
-        <script src="/js/zepto.min.js"></script>
 
         <!--typekit fonts-->
         <script type="text/javascript" src="//use.typekit.net/aml8zwo.js"></script>
@@ -80,7 +76,7 @@
                 <p class="header-subtitle">Mihnea DB</p>
             {% endif %}
         </div>
-        <div class="header-links hide">
+        <div class="header-links">
             {% if page.homepage != true %}
                 <a href="/"><img class="header-icon" src="/img/home.png" alt="Home"></a>
             {% endif %}
@@ -90,4 +86,3 @@
             <a href="http://www.mihneadb.net/feed.xml"><img class="header-icon" src="/img/rss.png" alt="RSS"></a>
         </div>
     </div>
-    <script>resizePostHeader()</script>
