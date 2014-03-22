@@ -67,7 +67,9 @@ code {
 .header {
     position: relative;
     background-color: $color-dark-green;
+    height: 22em; // fallback
     height: 50vh;
+    max-height: 35em; // trick to kind of support iOS
     opacity: 1;
     z-index: 2;
 
@@ -102,6 +104,7 @@ code {
 .header-contents {
     margin: 0 auto;
     position: relative;
+    top: 10em; // fallback
     top: 15vh;
 
     a {
