@@ -3,7 +3,7 @@ $color-red: #DE3961;
 $color-green: #A4E670;
 $color-light-yellow: #FFFFDC;
 $color-light-teal:#B3EECC;
-$color-teal: #00ADA7;
+$color-dark-green: #008F70;
 
 $media-query-breakpoint: 767px;
 $color-light-smoke: rgba(255, 255, 255, 0.75);
@@ -66,7 +66,7 @@ code {
 
 .header {
     position: relative;
-    background-color: $color-teal;
+    background-color: $color-dark-green;
     height: 50vh;
 
     h1, h2 {
