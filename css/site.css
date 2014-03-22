@@ -71,8 +71,7 @@ code {
   right: 0;
   background-position: 0% 50%;
   content: "";
-  z-index: 0;
-  -webkit-filter: grayscale(100%); }
+  z-index: 0; }
 
 .header-contents {
   margin: 0 auto;
