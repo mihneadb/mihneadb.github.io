@@ -57,7 +57,7 @@ code {
     text-align: center;
     color: white; }
   .header .header-subtitle {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 110%; }
 
 .header::before {
@@ -81,7 +81,7 @@ code {
   top: 10em;
   top: 15vh; }
   .header-contents a {
-    color: rgba(255, 255, 255, 0.75); }
+    color: rgba(255, 255, 255, 0.9); }
 
 .header-links {
   position: absolute;
