@@ -58,7 +58,9 @@ code {
     color: white; }
   .header .header-subtitle {
     color: rgba(255, 255, 255, 0.9);
-    font-size: 110%; }
+    font-family: "adobe-garamond-pro", georgia;
+    font-size: 1.4em;
+    font-weight: normal; }
 
 .header::before {
   background-image: url("../img/bg.jpg");
@@ -131,7 +133,9 @@ code {
 
 .post-title {
   margin-bottom: 20px;
-  text-align: left; }
+  text-align: left;
+  font-weight: 500;
+  font-size: 3em; }
 
 .formatted-par {
   text-indent: 2em;

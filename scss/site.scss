@@ -81,7 +81,9 @@ code {
 
     .header-subtitle {
         color: $color-light-smoke;
-        font-size: 110%;
+        font-family: "adobe-garamond-pro", georgia;
+        font-size: 1.4em;
+        font-weight: normal;
     }
 }
 
@@ -187,6 +189,8 @@ code {
 .post-title {
     margin-bottom: 20px;
     text-align: left;
+    font-weight: 500;
+    font-size: 3em;
 }
 
 .formatted-par {
