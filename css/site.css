@@ -213,4 +213,19 @@ table, th, td {
   .header-links {
     position: absolute;
     bottom: 1em;
-    right: 1em; } }
+    right: 1em; }
+
+  .post-title {
+    font-size: 2em; }
+
+  .header .header-subtitle {
+    font-size: 0.9em; }
+
+  .archive p.muted {
+    font-size: 0.7em; }
+
+  .post {
+    font-size: 0.8em; }
+
+  .formatted-par {
+    font-size: 0.8em; } }
