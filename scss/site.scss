@@ -151,7 +151,7 @@ code {
 }
 
 .bigger-text {
-    font-size: 115%;
+    font-size: 105%;
 }
 
 .post {
@@ -213,6 +213,10 @@ code {
 .archive li:last-of-type {
     border-bottom: none;
     margin-bottom: 3em;
+}
+
+.archive h2 {
+    font-size: 1.5em;
 }
 
 .highlight {
