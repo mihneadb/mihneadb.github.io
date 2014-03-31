@@ -35,8 +35,9 @@ is_post: true
     <div class="row">
         <div class="share">
             <ul>
-                <li><fb:like width="450" layout="box_count" show_faces="false" send="false"></fb:like></li>
+                <li><a href="https://news.ycombinator.com/submit" class="hn-button" data-count="vertical">Vote on Hacker News</a></li>
                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="mihneadb"></a></li>
+                <li><fb:like width="450" layout="box_count" show_faces="false" send="false"></fb:like></li>
             </ul>
         </div>
     </div>
@@ -76,5 +77,8 @@ is_post: true
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=494769047280174";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<!--HN-->
+<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
 
 {% include footer.html %}
