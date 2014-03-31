@@ -202,7 +202,8 @@ code {
     a {
         color: #888 !important;
         font-family: "source-sans-pro", sans-serif;
-        font-size: 90%;
+        font-size: 0.65em;
+        font-weight: 500;
     }
 
     a:hover {
@@ -213,10 +214,6 @@ code {
 .archive li:last-of-type {
     border-bottom: none;
     margin-bottom: 3em;
-}
-
-.archive h2 {
-    font-size: 1.5em;
 }
 
 .highlight {
