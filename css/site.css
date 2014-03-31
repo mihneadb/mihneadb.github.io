@@ -225,8 +225,5 @@ table, th, td {
   .archive p.muted {
     font-size: 0.7em; }
 
-  .post {
-    font-size: 0.8em; }
-
-  .formatted-par {
-    font-size: 0.8em; } }
+  .post, .formatted-par, .code {
+    font-size: 0.85em; } }
