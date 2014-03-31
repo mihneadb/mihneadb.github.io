@@ -208,6 +208,7 @@ table, th, td {
   .content {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 20px;
     margin-top: 0; }
 
   .header-links {
