@@ -99,6 +99,8 @@ code {
 
 .ornament {
   text-align: center; }
+  .ornament img {
+    opacity: 0.6; }
 
 .share {
   text-align: right; }
