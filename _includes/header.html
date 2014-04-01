@@ -2,7 +2,7 @@
 <html xmlns:fb=”http://ogp.me/ns/fb#” lang="en">
     <head>
         <meta charset="utf-8">
-        <title>{% if page.homepage %}The Open Blog{% else %}{{ page.title }} - The Open Blog{% endif %}</title>
+        <title>{% if page.homepage %}The Open Blog{% else %}{{ page.title }}{% endif %}</title>
 
         <link rel="icon" type="image/ico" href="/img/favicon.ico?vnew"/>
         <link rel="canonical" href="{{ site.url}}{{ page.url | replace:'index.html',''}}" />
