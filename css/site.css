@@ -219,8 +219,13 @@ table, th, td {
   .post-title {
     font-size: 2em; }
 
-  .header .header-subtitle {
-    font-size: 0.9em; }
+  .header {
+    height: 17em; }
+    .header .header-subtitle {
+      font-size: 0.9em; }
+
+  .header-contents {
+    top: 5em; }
 
   .archive p.muted {
     font-size: 0.7em; }

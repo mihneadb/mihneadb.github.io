@@ -292,7 +292,6 @@ table, th, td {
         margin-top: 0;
     }
 
-
     .header-links {
         position: absolute;
         bottom: 1em;
@@ -304,9 +303,15 @@ table, th, td {
     }
 
     .header {
+        height: 17em;
+
         .header-subtitle {
             font-size: 0.9em;
         }
+    }
+
+    .header-contents {
+        top: 5em;
     }
 
     .archive p.muted {
