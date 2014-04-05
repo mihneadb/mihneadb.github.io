@@ -27,7 +27,7 @@ is_post: true
             <ul>
                 <li><a href="https://news.ycombinator.com/submit" class="hn-button" data-count="vertical">Vote on Hacker News</a></li>
                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="mihneadb"></a></li>
-                <li><fb:like width="450" layout="box_count" show_faces="false" send="false"></fb:like></li>
+                <li><a class="fb-share-button" data-type="box_count"></a></li>
             </ul>
         </div>
     </div>
@@ -61,11 +61,11 @@ is_post: true
 <!--FB-->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=494769047280174";
-    fjs.parentNode.insertBefore(js, fjs);
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=494769047280174";
+  fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <!--HN-->
