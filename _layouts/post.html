@@ -25,6 +25,7 @@ is_post: true
     <div class="row">
         <div class="share">
             <ul>
+                <li><su:badge layout="5"></su:badge></li>
                 <li><a href="https://news.ycombinator.com/submit" class="hn-button" data-count="vertical">Vote on Hacker News</a></li>
                 <li><a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="mihneadb"></a></li>
                 <li><a class="fb-share-button" data-type="box_count"></a></li>
@@ -70,5 +71,15 @@ is_post: true
 
 <!--HN-->
 <script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+
+<!-- StumbleUpon -->
+<script type="text/javascript">
+  (function() {
+    var li = document.createElement('script'); li.type = 'text/javascript'; li.async = true;
+    li.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//platform.stumbleupon.com/1/widgets.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(li, s);
+  })();
+</script>
+
 
 {% include footer.html %}
