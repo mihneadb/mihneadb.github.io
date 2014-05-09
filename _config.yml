@@ -6,4 +6,5 @@ markdown: rdiscount
 
 destination: ./_site/post
 permalink: /post/:title
-pygments: true
+highlighter: pygments
+
